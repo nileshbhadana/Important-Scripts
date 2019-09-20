@@ -1,10 +1,10 @@
 {
     "telemetry.machineId": "2a1859b716fe3f065590bc5c82a139b35237f4eab450af9339a3ba1d282df672",
     "openedPathsList": {
-        "workspaces3": [],
-        "files2": [
-            "file:///root/Desktop/projects/Important-Scripts/freemyram"
-        ]
+        "workspaces3": [
+            "file:///root/Desktop/projects/Important-Scripts"
+        ],
+        "files2": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -46,15 +46,16 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "openRecentFile",
+                                    "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///root/Desktop/projects/Important-Scripts/freemyram",
-                                        "path": "/root/Desktop/projects/Important-Scripts/freemyram",
+                                        "fsPath": "/root/Desktop/projects/Important-Scripts",
+                                        "external": "file:///root/Desktop/projects/Important-Scripts",
+                                        "path": "/root/Desktop/projects/Important-Scripts",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Desktop/projects/Important-Scripts/freemyram"
+                                    "label": "~/Desktop/projects/Important-Scripts"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -168,8 +169,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -358,7 +358,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -552,7 +553,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1378,7 +1380,8 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/root/Desktop/projects/Important-Scripts/~/.vscode-root/Backups/1568988350065",
+            "folder": "file:///root/Desktop/projects/Important-Scripts",
+            "backupPath": "/root/Desktop/projects/Important-Scripts/~/.vscode-root/Backups/fe6440aecb78d2e8bb9c39e86e1ac457",
             "uiState": {
                 "mode": 1,
                 "x": 448,
