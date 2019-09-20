@@ -1,0 +1,5 @@
+#this Script is for clearing the cache and buffer of the ram
+#Use this Script to clean your ram buffer
+echo "Cleaning your RAM"
+echo "1" > /proc/sys/vm/drop_caches
+free -m
