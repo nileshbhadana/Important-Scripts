@@ -1,0 +1,9 @@
+#This script is to automate the git push task
+#This command requires an argument as the comment to be used
+#for commit
+
+#Run this command in the git directory you want to commit changes of.
+#Eg:   gitfun "mycomment" 
+git add .
+git commit -m "$1"
+git push
